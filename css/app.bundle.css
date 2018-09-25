@@ -1993,6 +1993,10 @@ header.transparent-header {
 
 
 /* 3. slider-area */
+.single-slider {
+  background-image:url(../img/slider/slide-bg.jpg)
+}
+
 .single-slider.slider-height {
   min-height: 850px;
    background-size: cover;
@@ -3670,6 +3674,14 @@ div.logo img {
   height: 48px;
 }
 
+div.logo img.mini {
+  display: none;
+}
+
+#counter {
+  background-image:url(../img/bg/bg-counter.jpg);
+}
+
 
 /* XL Device :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
@@ -4070,6 +4082,15 @@ div.logo img {
 	padding-top: 15px;
 }
 .width-100-xs{width:100%}
+div.logo img.full {
+	display: none;
+}
+div.logo img.mini {
+	display: inline;
+}
+#counter {
+	background-image: url(../img/bg/bg-counter-rotate.jpg);
+}
 
 
 
