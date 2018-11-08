@@ -2785,7 +2785,7 @@ header.transparent-header {
 .testimonial-nav {
   margin: 50px auto auto;
   text-align: center;
-  width: 310px;
+  width: 100px;
 }
 .testimonial-nav button {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;

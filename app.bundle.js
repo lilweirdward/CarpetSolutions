@@ -322,7 +322,7 @@ https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt
         asNavFor: '.testimonial-nav'
     });
     $('.testimonial-nav').slick({
-        slidesToShow: 3,
+        slidesToShow: 1,
         slidesToScroll: 1,
         asNavFor: '.testimonia-item-active',
         dots: false,
