@@ -314,32 +314,32 @@ https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt
 
 
 
-    $('.testimonia-item-active').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: false,
-        fade: true,
-        asNavFor: '.testimonial-nav'
-    });
-    $('.testimonial-nav').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        asNavFor: '.testimonia-item-active',
-        dots: false,
-        prevArrow:'<button type="button" class="slick-prev"><i class="fas fa-chevron-left"></i></button>',
-        nextArrow:'<button type="button" class="slick-next"><i class="fas fa-chevron-right"></i></button>',
-        centerMode: true,
-        focusOnSelect: true,
-        centerPadding:0,
-        responsive: [
-            {
-                breakpoint: 480,
-                settings: {
-                    arrows: false,
-                }
-            }
-        ]
-    });
+    // $('.testimonia-item-active').slick({
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1,
+    //     arrows: false,
+    //     fade: true,
+    //     asNavFor: '.testimonial-nav'
+    // });
+    // $('.testimonial-nav').slick({
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1,
+    //     asNavFor: '.testimonia-item-active',
+    //     dots: false,
+    //     prevArrow:'<button type="button" class="slick-prev"><i class="fas fa-chevron-left"></i></button>',
+    //     nextArrow:'<button type="button" class="slick-next"><i class="fas fa-chevron-right"></i></button>',
+    //     centerMode: true,
+    //     focusOnSelect: true,
+    //     centerPadding:0,
+    //     responsive: [
+    //         {
+    //             breakpoint: 480,
+    //             settings: {
+    //                 arrows: false,
+    //             }
+    //         }
+    //     ]
+    // });
 
 
 
